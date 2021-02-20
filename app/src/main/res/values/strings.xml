@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="don_t_have_an_account">Don\'t have an account? <u>Sign Up</u></string>
+    <string name="username">Username</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sweater_with_side_slits">SWEATER WITH SIDE SLITS</string>
+    <string name="_69_90_usd">$69.90 USD</string>
+    <string name="_80_0_usd">$80.0 USD</string>
+    <string name="this_all_season_sweater_will_quickly_become_one_of_your_go_tos_with_a_shaker_stitch_crew_neckline_and_side_slits_this_classic_yet_perfectly_cool_silhouette_pairs_easily_with_jeans">This all-season sweater will quickly become one of your go-tos. With a shaker stitch, crew neckline, and side slits, this classic yet perfectly-cool silhouette pairs easily with jeans</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="ecommerce">Ecommerce</string>
+    <string name="home">Home</string>
+    <string name="download">Download</string>
+    <string name="_5">5</string>
+    <string name="gift_code">Gift Code</string>
+    <string name="top_review">Top Review</string>
+    <string name="settings">Settings</string>
+    <string name="support">Support</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="_45_00">$45.00</string>
+    <string name="password">Password</string>
+</resources>

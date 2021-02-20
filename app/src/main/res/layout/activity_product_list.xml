@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lite_gray"
+    android:orientation="vertical"
+    tools:context=".activities.ProductListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/black3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:onClick="clickMenu"
+            android:padding="14dp"
+            android:src="@drawable/product_list_3_dots" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/product_list_3_dots"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center"
+                android:text="@string/ecommerce"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="14dp"
+            android:src="@drawable/wishlist" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="14dp"
+            android:src="@drawable/bag" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.example.amreenassignment.adapter.ExpandableHeightGridView
+                android:id="@+id/gridview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@color/lite_white"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp" />
+
+            <com.example.amreenassignment.adapter.ExpandableHeightGridView
+                android:id="@+id/gridview2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@color/lite_white"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

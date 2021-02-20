@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    tools:context=".activities.LogInActivity">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_gravity="right"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_information_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/eidt_form_background"
+                        android:drawablePadding="16dp"
+                        android:fontFamily="@font/maven_pro"
+                        android:hint="@string/username"
+                        android:inputType="text"
+                        android:padding="15dp"
+                        android:textColor="@color/black2" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/eidt_form_background"
+                        android:drawablePadding="16dp"
+                        android:fontFamily="@font/maven_pro"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:padding="15dp"
+                        android:textColor="@color/black2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/maven_pro"
+                            android:gravity="right"
+                            android:text="@string/forgot_password"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/sign_in_button_background"
+                        android:fontFamily="@font/maven_pro"
+                        android:padding="15dp"
+                        android:text="@string/sign_in"
+                        android:onClick="signIn"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maven_pro"
+                    android:gravity="center"
+                    android:text="@string/don_t_have_an_account"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
